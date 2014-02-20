@@ -1,15 +1,20 @@
 {
-  "name": "model",
+  "name": "component-model",
+  "description": "Elegant data models",
   "version": "0.1.2",
-  "repository": "git://github.com/component/model.git",
+  "keywords": [
+    "collection",
+    "model",
+    "orm",
+    "db",
+    "database"
+  ],
   "main": "lib/index.js",
   "dependencies": {
-    "emitter-component": "~1.1.1",
-    "collection": "git://github.com/component/collection#0.0.2",
-    "each-component": "~0.1.0",
-    "superagent": "~0.16.0"
+    "component-each": "git://github.com/npmcomponent/component-each.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-collection": "git://github.com/npmcomponent/component-collection.git",
+    "visionmedia-superagent": "git://github.com/npmcomponent/visionmedia-superagent.git"
   },
-  "devDependencies": {
-    "express": "3.0.0"
-  }
+  "license": "MIT"
 }
